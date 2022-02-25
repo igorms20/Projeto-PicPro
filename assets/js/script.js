@@ -10,6 +10,7 @@ function identificarElemento(event){
         const secao1 = document.querySelector(`div[data-id="${id}"]`)
         removerClasse()
         secao1.classList.add("show")
+        console.log(secao1)
     }
     
 }
