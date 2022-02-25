@@ -21,3 +21,5 @@ function removerClasse(){
         divs[i].classList.remove("show")
     }
 }
+
+// tudo ok
