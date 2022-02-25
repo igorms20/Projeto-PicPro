@@ -17,9 +17,8 @@ function identificarElemento(event){
 function removerClasse(){
     const divs = document.querySelectorAll(".secaoTransacao .container div")
     for (let i = 0; i < divs.length; i ++){
-        console.log(divs[i])
+        
         divs[i].classList.remove("show")
     }
 }
 
-// tudo ok
